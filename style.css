@@ -1,0 +1,63 @@
+.hexa-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.hex-colors h2{
+    padding: 100px 0px 50px;
+}
+
+.hex-colors h1{
+    animation: colorChange 5s infinite alternate ;
+}
+@keyframes colorChange {
+    0%{
+color: blueviolet;
+    }
+    25%{
+color: aquamarine;
+    }
+    50%{
+color: rgb(19, 129, 231);
+    }
+    75%{
+        color: brown;
+    }
+    100%{
+color: chocolate;
+    }
+}
+/* rgba */
+.rgba-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.rgba-colors h2{
+    padding: 100px 0px 50px;
+}
+
+.rgba-colors h1{
+    animation: colorChange 5s infinite alternate ;
+}
+@keyframes colorChange {
+    0%{
+color: blueviolet;
+    }
+    25%{
+color: aquamarine;
+    }
+    50%{
+color: rgb(19, 129, 231);
+    }
+    75%{
+        color: brown;
+    }
+    100%{
+color: chocolate;
+    }
+}
